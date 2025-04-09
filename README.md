@@ -185,6 +185,20 @@ npm start
 
 O resultado final esperado é uma aplicação web front-end completa, que interage com uma API externa para exibir informações sobre filmes, oferece uma navegação clara entre as páginas, permite aos usuários salvar seus filmes preferidos e proporciona uma experiência de usuário aprimorada com indicadores de carregamento e alertas estilizados
 
+Prints da aplicação:
+
+![Image](https://github.com/user-attachments/assets/e8c0fbe3-e845-46f2-8193-8c1da686a276)
+
+![Image](https://github.com/user-attachments/assets/531a8ffb-b4f6-4a8a-9a0e-a8605df3c365)
+
+![Image](https://github.com/user-attachments/assets/cf875553-ef4b-41df-8d3c-7e3e838aacda)
+
+![Image](https://github.com/user-attachments/assets/39630b1e-c743-40b5-823f-42e5198577f7)
+
+![Image](https://github.com/user-attachments/assets/75243005-275b-43b6-812c-c36c85983750)
+
+![Image](https://github.com/user-attachments/assets/e5ed8969-52d9-4389-afd4-9adb08299bb2)
+
 Link para acessar a aplicação online:
 
 https://aplicacao-react-com-api-e-rotas-dinamicas-filmes.vercel.app/
