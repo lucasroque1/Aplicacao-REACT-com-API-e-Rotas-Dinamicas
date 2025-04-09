@@ -21,3 +21,15 @@ Tecnologias Utilizadas:
 • Local Storage: Para armazenar os filmes favoritos do usuário localmente no navegador.
 
 • react-toastify: Uma biblioteca para exibir notificações elegantes para o usuário.
+
+Para comerçamos a testar o código precisamos fazer os seguintes passos
+
+cd (nome do projeto)
+
+Instalar as dependências do projeto:
+
+npm install
+
+Por ultimo o comando de rodar o código:
+
+npm start
