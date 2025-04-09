@@ -2,7 +2,7 @@
 
 A aplicação tem como objetivo consumir dados de uma API externa e apresentar informações dinâmicas em páginas com rotas internas utilizando react-router-dom
 
-# Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 
 • React: Uma biblioteca JavaScript para construir interfaces de usuário.
 
@@ -22,7 +22,7 @@ A aplicação tem como objetivo consumir dados de uma API externa e apresentar i
 
 • react-toastify: Uma biblioteca para exibir notificações elegantes para o usuário.
 
-Para comerçamos a testar o código precisamos fazer os seguintes passos
+## Para comerçamos a testar o código precisamos fazer os seguintes passos
 
 cd (nome do projeto)
 
@@ -35,7 +35,7 @@ Por ultimo o comando de rodar o código:
 npm start
 
 
-Configuração de Rotas com React Router DOM:
+## Configuração de Rotas com React Router DOM:
 
 • Foram criadas pastas e arquivos para as páginas Home e Filme dentro da pasta src/pages.
 
@@ -47,7 +47,7 @@ Configuração de Rotas com React Router DOM:
 
 • Foram realizados testes para verificar se as rotas estavam funcionando corretamente, acessando a página inicial e a página de filme com um ID de teste (/filme/1).
 
-Criação de um Header Comum:
+## Criação de um Header Comum:
 
 • Uma pasta Header foi criada dentro de src/components, contendo um arquivo index.js para o componente Header.
 
@@ -59,7 +59,7 @@ Criação de um Header Comum:
 
 • Foi sugerida uma estilização para o Header.
 
-Configuração da Home com Requisição à API do TMDB:
+## Configuração da Home com Requisição à API do TMDB:
 
 • Foi explicado como criar uma conta e obter uma chave de API no site do TMDB (https://www.themoviedb.org/?language=pt-BR).
 
@@ -71,7 +71,7 @@ Configuração da Home com Requisição à API do TMDB:
 
 • Diferentes endpoints da API, como now_playing para obter filmes em cartaz, foram explorados.
 
-Um serviço para consumir a API foi criado:
+## Um serviço para consumir a API foi criado:
 
 • Uma pasta services e um arquivo api.js foram criados dentro de src.
 
@@ -79,7 +79,7 @@ Um serviço para consumir a API foi criado:
 
 • O axios foi importado em api.js, e uma constante api foi criada com a URL base da API do TMDB.
 
-O consumo da API na página Home foi implementado:
+## O consumo da API na página Home foi implementado:
 
 • Os hooks useEffect e useState foram importados em src/pages/Home/index.js.
 
@@ -103,7 +103,7 @@ O consumo da API na página Home foi implementado:
 
 • Um arquivo home.css foi criado e importado em src/pages/Home/index.js para estilizar a página Home.
 
-Criação de Loading e Página de Not Found:
+## Criação de Loading e Página de Not Found:
 
 • Um estado booleano loading foi implementado na página Home para indicar se os filmes estão sendo carregados.
 
@@ -121,7 +121,7 @@ Criação de Loading e Página de Not Found:
 
 • Um arquivo error.css foi criado e importado para estilizar a página de "Página não encontrada".
 
-Criação Dinâmica da Página de Detalhes de Cada Filme:
+## Criação Dinâmica da Página de Detalhes de Cada Filme:
 
 • Na página src/pages/Filme/index.js, os hooks useEffect, useState, e useParams foram importados para acessar o ID do filme na rota dinâmica.
 
@@ -145,11 +145,11 @@ Criação Dinâmica da Página de Detalhes de Cada Filme:
 
 • O useNavigate hook foi importado e utilizado para redirecionar o usuário para a Home caso ocorra um erro ao buscar os detalhes de um filme inexistente (tratamento do .catch).
 
-Exibição do Trailer no YouTube:
+## Exibição do Trailer no YouTube:
 
 • Foi planejado que ao clicar no botão "Trailer", uma busca no YouTube seria feita utilizando o título do filme obtido da API e a palavra "trailer". (A implementação específica do link para o YouTube não foi detalhada no trecho fornecido).
 
-Salvamento de Filmes Favoritos:
+## Salvamento de Filmes Favoritos:
 
 • Uma função salvarFilme foi criada para salvar os detalhes do filme no localStorage do navegador, utilizando uma chave chamada @primeflix. Foi implementada uma lógica para verificar se o filme já havia sido adicionado aos favoritos, evitando duplicatas.
 
@@ -159,7 +159,7 @@ Salvamento de Filmes Favoritos:
 
 • Um alerta foi implementado para informar o usuário se o filme foi salvo com sucesso ou se já estava nos favoritos.
 
-Construção da Página de Favoritos:
+## Construção da Página de Favoritos:
 
 • Uma pasta Favoritos e um arquivo index.js foram criados dentro de src/pages para a página de favoritos, juntamente com um arquivo favoritos.css.
 
@@ -173,7 +173,7 @@ Construção da Página de Favoritos:
 
 • Uma correção foi feita no useEffect da página Filme para evitar um possível erro.
 
-Estilização de Alerts com react-toastify:
+## Estilização de Alerts com react-toastify:
 
 • A biblioteca react-toastify foi instalada para exibir notificações estilizadas.
 
