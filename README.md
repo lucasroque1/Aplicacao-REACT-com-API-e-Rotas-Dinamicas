@@ -1,4 +1,4 @@
-<h3> Este projeto foi desenvolvido com React <h3/>
+<h3> Este projeto foi desenvolvido com React
 
 A aplicação tem como objetivo consumir dados de uma API externa e apresentar informações dinâmicas em páginas com rotas internas utilizando react-router-dom
 
