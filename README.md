@@ -184,3 +184,7 @@ npm start
 • Os alerts utilizados anteriormente foram substituídos por toast.success (para sucesso) e toast.warn (para aviso) para exibir mensagens mais elegantes.
 
 O resultado final esperado é uma aplicação web front-end completa, que interage com uma API externa para exibir informações sobre filmes, oferece uma navegação clara entre as páginas, permite aos usuários salvar seus filmes preferidos e proporciona uma experiência de usuário aprimorada com indicadores de carregamento e alertas estilizados
+
+Link para acessar a aplicação online:
+
+https://aplicacao-react-com-api-e-rotas-dinamicas-filmes.vercel.app/
